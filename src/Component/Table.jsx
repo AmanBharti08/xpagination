@@ -23,7 +23,7 @@ const Table = () => {
 
   useEffect(() => {
     fetchData();
-  });
+  },[]);
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
