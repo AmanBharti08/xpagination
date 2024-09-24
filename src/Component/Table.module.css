@@ -29,3 +29,18 @@ td {
   padding: 5px;
   border-bottom: 1px solid grey;
 }
+.pagination {
+  display: flex;
+  gap: 10px;
+}
+
+.pagination > button {
+  width: 100px;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 5px;
+}
