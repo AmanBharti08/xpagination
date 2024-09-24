@@ -44,3 +44,12 @@ td {
   border: none;
   padding: 5px;
 }
+.pageInfo {
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 5px;
+}
